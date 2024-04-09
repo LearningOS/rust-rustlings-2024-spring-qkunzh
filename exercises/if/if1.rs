@@ -9,9 +9,10 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     // - another function call
     // - additional variables
     if a > b {
-        a
+       return  a
+    } else {
+       return b
     }
-    b
 }
 
 // Don't mind this for now :)
